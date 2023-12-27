@@ -1,7 +1,7 @@
 import http from "http";
 import express from "express";
 import { App } from "./app";
-import { appConfig } from "./config";
+import { appConfig } from "../config";
 
 class Server {
   private app: express.Express;

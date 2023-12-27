@@ -1,4 +1,4 @@
-import { GUARD, dataFound, jsonHttp } from "../../helpers";
+import { GUARD, dataFound, jsonHttp } from "../../../helpers";
 
 class UserCore {
 

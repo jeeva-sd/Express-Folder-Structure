@@ -1,4 +1,3 @@
-import { Response } from "express";
 import { appConfig } from "../../config";
 import { MessageStatus, messages } from "./messages";
 import { ApiResult } from "./types";

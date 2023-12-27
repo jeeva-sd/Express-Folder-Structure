@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
-import { Route, getMetaData } from "../helpers/decorators";
-import { ApiResult } from "../helpers/results/types";
-import { exception } from "../helpers";
+import { Route, getMetaData } from "../../helpers/decorators";
+import { ApiResult } from "../../helpers/results/types";
+import { exception } from "../../helpers";
 
 const attachRouter = (appRoutes: any[]) => {
     return appRoutes.map((Controller) => {

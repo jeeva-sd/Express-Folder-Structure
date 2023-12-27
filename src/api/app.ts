@@ -1,8 +1,8 @@
 import express, { Request, Response, NextFunction } from "express";
 import { json, urlencoded } from "body-parser";
 import path from "path";
-import { take } from "./helpers";
-import { appConfig } from "./config";
+import { take } from "../helpers";
+import { appConfig } from "../config";
 import { applicationRoutes } from "./routes";
 
 declare global {

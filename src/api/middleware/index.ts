@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import * as yup from 'yup';
-import { take } from "../helpers";
+import { take } from "../../helpers";
 
 export const validate = (schema: yup.AnyObjectSchema) => {
     return async (req: Request, res: Response, next: NextFunction) => {

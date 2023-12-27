@@ -1,5 +1,5 @@
 import { Request } from "express";
-import { CONTROLLER, GET } from "../../helpers";
+import { CONTROLLER, GET } from "../../../helpers";
 import UserCore from "../../core/user";
 import { validate } from "../../middleware";
 import { userById } from "./userHandler";
